@@ -26,4 +26,7 @@ If you omit the sentence completely then the default sentence `The cow jumped ov
 ## Support
 Please contact Chris Melikian in case of any issues.
 
-## Licensing
+## License
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+[MIT license](http://opensource.org/licenses/mit-license.php)
