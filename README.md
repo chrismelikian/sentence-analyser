@@ -23,6 +23,39 @@ where `<your-sentence>` is your sentence to analyse.
 
 If you omit the sentence completely then the default sentence `The cow jumped over the moon` is analysed for you.
 
+### Example Output
+
+#### No Sentence Supplied
+
+```
+java net.melikian.sentenceanalyser.SentenceAnalyserRunner
+```
+
+gives the output:-
+
+```
+Sentence:The cow jumped over the moon
+Shortest word(s):[The, the, cow]
+Length of shortest word(s):3
+Longest word(s):[jumped]
+Length of longest word(s):6
+```
+
+#### Sentence Supplied
+
+```
+java net.melikian.sentenceanalyser.SentenceAnalyserRunner "This is my sentence" 
+```
+gives the output:-
+```
+Sentence:This is my sentence
+Shortest word(s):[is, my]
+Length of shortest word(s):2
+Longest word(s):[sentence]
+Length of longest word(s):8
+```
+
+
 ## Support
 Please contact Chris Melikian in case of any issues.
 
