@@ -12,7 +12,7 @@ This Maven module contains a class that analyses a sentence and outputs the shor
 ### Building
 
 1. Go to the root folder of the project where you'll find pom.xml
-1. To compile the code and run the tests, use `mvn clean package`
+1. To compile the code and run the tests, use `mvn clean test`
 
 ### Running
 1. Build the code as above
