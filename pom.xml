@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.melikian</groupId>
+  <artifactId>sentence-analyser</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <developers>
+    <developer>
+      <name>Chris Melikian</name>
+    </developer>
+  </developers>
+
+  <description>Analyses a sentence and produces the shortest and longest words from it together with
+    their lengths.
+  </description>
+
+  <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <artifactId>junit</artifactId>
+      <groupId>junit</groupId>
+      <scope>test</scope>
+      <version>4.13</version>
+    </dependency>
+  </dependencies>
+
+</project>
